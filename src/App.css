@@ -1,0 +1,118 @@
+.App {
+    background-color: #3a3a3a;
+    max-width: 100%;
+    margin: 0px;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 4px;
+  }
+  
+  h1 {
+    padding: 5px 20px;
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+  }
+  @media screen and (max-width: 480px) {
+      h1 {
+        font-size: 2rem;
+        margin: 30px;
+      }
+  }
+  
+  .characters {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    width: 370px;
+    background: rgb(59, 62, 67);
+    border-radius: 0.5rem;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 4px 4px rgba(216, 210, 210, 0.596);
+  }
+  
+  .card img {
+    width: 12rem;
+    height: 100%;
+    flex: 1;
+  }
+  
+  .loading {
+    background-color: rgb(36, 40, 46);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .loading h3 {
+    color: white;
+    font-size: 7.5rem;
+  }
+  
+  .text-container {
+    flex: 1;
+    padding: 5px 20px;
+    color: white;
+    font-size: 1rem;
+  }
+  
+  .text-container h3 {
+    font-size: 1.2rem;
+  }
+  
+  .status {
+    margin-bottom: 1rem;
+  }
+  
+  .title {
+    color: rgb(73, 171, 179);
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .btn-group {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: center;
+    gap: 20px;
+    padding: 5px 10px;
+    margin: 10px 0;
+  }
+  
+  button {
+    padding: 5px 20px;
+    font-size: 1.5rem;
+    outline: none;
+    border: 2px solid #67a1d8;
+    background-color: #67a1d8;
+  }
+  @media screen and (max-width: 376px) {
+    button {
+      font-size: 1rem;
+    }
+  }
+  button:hover {
+    border: 2px solid #4949af;
+  }
+  button:disabled {
+    background-color: #fa4545;
+  }
+  .footer {
+    color: #fafafa;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
